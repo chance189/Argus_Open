@@ -2,11 +2,11 @@
 
 The Argus Open strives to be an open source security platform based off of GStreamer and Qt. The hope is to integrate any camera into the system, providing the user with utmost flexibility when creating a security implementation for the home. Currently tested with ADT Sercomm Camera, and USB cameras for streaming data to GUI, and to mp4 files. 
 
-##Supported Platforms
+## Supported Platforms
 
 All code based has only been tested on Linux 18.04, running on an ARM core (Xavier NX Development Board). After polishing of app/meeting milestones, other systems will be tested.
 
-##Getting started
+## Getting started
 
 Code is based off of Gstreamer 1.14, and Qt 5.9.5, all other releases are untested. 
 
@@ -30,7 +30,7 @@ Example of app working:
 
 ![](example.gif)
 
-#Goals
+## Goals
 
 - Error proof the camera selection/add error messages to unsuccessful camera links
 - Create custom Gstreamer filesink to write a new file after n amount of time in minutes
